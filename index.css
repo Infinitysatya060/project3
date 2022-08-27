@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* navbar */
+.nav{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+   height: 0;
+   color: white;
+ 
+}
+.logo p{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  border: 1px solid white;
+  padding: 10px;
+  text-shadow: 2px 2px 5px white;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+ul{
+    height: 0;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    
+   
+}
+li{
+    margin: 20px;
+    
+}
+a{
+    color: white;
+    font-size: 3vmin;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: crimson;
+    text-decoration: underline;
+    transition: 0.4s ease;
+}
+.active{
+    color: crimson;
+    text-decoration: underline;
+}
+
+
+.head{
+    background-image: url('image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.header-content{
+    color: crimson;
+    /* display: flex;
+    justify-content: center; */
+  position: relative;
+  top: 40%;
+  font-size: 8vmin;
+  line-height: 100px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+   position: absolute;
+   top: 80%;
+   left: 45%;
+   height: 10vh;
+   width: 10vw;
+   background-color: crimson;
+   border: none;
+   border-radius: 5px;
+}
+.btn:hover{
+    box-shadow: 1px 1px 2px 0px rgb(212, 112, 112);
+    transition: 0.3s ease;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vmin;
+}
+.btn a:hover{
+    text-decoration: underline;
+}
+ h1{
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    position: relative;
+    top: -10px;
+}
+.col1{
+    
+    height: 44vh;
+    width: 15vw;
+    float: left;
+    margin: 25px;
+  position: relative;
+  left: 10%;
+  background-image: url('image/food1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px 1px rgb(163, 212, 47);
+}
+.col1:hover{
+    box-shadow: 2px 2px 3px 2px rgb(174, 243, 14);
+}
+.col2{
+    
+    height: 44vh;
+    width: 15vw;
+    float: left;
+    margin: 25px;
+  position: relative;
+  left: 10%;
+  background-image: url('image/food2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px 1px rgb(163, 212, 47);
+}
+.col2:hover{
+    box-shadow: 2px 2px 3px 2px rgb(174, 243, 14);
+}
+.col3{
+    
+    height: 44vh;
+    width: 15vw;
+    float: left;
+    margin: 25px;
+  position: relative;
+  left: 10%;
+  background-image: url('image/food3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px 1px rgb(163, 212, 47);
+}
+.col3:hover{
+    box-shadow: 2px 2px 3px 2px rgb(174, 243, 14);
+}
+.col4{
+    
+    height: 44vh;
+    width: 15vw;
+    float: left;
+    margin: 25px;
+  position: relative;
+  left: 10%;
+  background-image: url('image/food4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px 1px rgb(163, 212, 47);
+}
+.col4:hover{
+    box-shadow: 2px 2px 3px 2px rgb(174, 243, 14);
+}
+
+/* description */
+.box1{
+    
+    height: 15vh;
+    width: 15vw;
+    position: relative;
+    top: 110%;
+    /* border-top-left-radius: 20%;
+    border-top-right-radius: 20%; */
+    border-radius: 20%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background-color: gainsboro;
+
+}
+.box1:hover{
+    box-shadow: 0px -5px 5px 1px gray;
+    transition: .3s ease;
+}
+
+.set{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(82, 117, 82);
+   
+}
+
+/* veg */
+
+.col5{
+   
+    height: 44vh;
+    width: 15vw;
+    float: left;
+    margin: 25px;
+  position: relative;
+  left: 10%;
+  background-image: url('image/food5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px 1px rgb(163, 212, 47);
+}
+.col5:hover{
+    box-shadow: 2px 2px 3px 2px rgb(174, 243, 14);
+}
+.col6{
+    
+    height: 44vh;
+    width: 15vw;
+    float: left;
+    margin: 25px;
+  position: relative;
+  left: 10%;
+  background-image: url('image/food6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px 1px rgb(163, 212, 47);
+}
+.col6:hover{
+    box-shadow: 2px 2px 3px 2px rgb(174, 243, 14);
+}
+.col7{
+    
+    height: 44vh;
+    width: 15vw;
+    float: left;
+    margin: 25px;
+  position: relative;
+  left: 10%;
+  background-image: url('image/food7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px 1px rgb(163, 212, 47);
+}
+.col7:hover{
+    box-shadow: 2px 2px 3px 2px rgb(174, 243, 14);
+}
+.col8{
+    
+    height: 44vh;
+    width: 15vw;
+    float: left;
+    margin: 25px;
+  position: relative;
+  left: 10%;
+  background-image: url('image/food8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  box-shadow: 2px 2px 3px 1px rgb(163, 212, 47);
+}
+.col8:hover{
+    box-shadow: 2px 2px 3px 2px rgb(174, 243, 14);
+}
+
+/* description */
+.box2{
+    
+    height: 15vh;
+    width: 15vw;
+    position: relative;
+    top: 110%;
+ 
+    border-radius: 20%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background-color: gainsboro;
+
+}
+.box2:hover{
+    box-shadow: 0px -5px 5px 1px gray;
+    transition: .3s ease;
+}
+.poor{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(230, 59, 59);
+ 
+}
+/* veg */
+
+.foot{
+    margin-top: 2%;
+    height: 50vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.767);
+}
+/* login page */
+.login{
+    float: left;
+}
+label{
+    color:whitesmoke;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-weight: bolder;
+}
+input{
+    height: 4vh;
+    width: 15vw;
+    position: relative;
+    top: 10%;
+    left: 5%;  
+    margin: 20px;
+}
+#btn{
+   margin: 20px;
+   height: 5vh;
+   width: 5vw;
+   position: relative;
+   left: 20%;
+   background-color: crimson;
+   border: none;
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+   
+}
+/* login page end */
+
+
+
+
+
+.cool{
+float: left;
+position: relative;
+left: 10%;
+}
+li{
+    list-style-type: none;
+}
+.cool li a{
+text-decoration: none;
+
+
+}
+
+.icon{
+float: left;
+position: relative;
+left: 15%;
+top: 5%;
+display: flex;
+justify-content: space-between;
+}
+.circle{
+   margin-top: 15px;
+    margin: 15px;
+    color: white;
+}
+.circle:hover{
+    color: crimson;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.copy{
+    text-decoration: underline;
+}
+
+@media (max-width:850px) {
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: 0;
+        height: 100vh;
+        background-color: green;
+    }
+    
+}
